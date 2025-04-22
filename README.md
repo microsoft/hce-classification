@@ -7,19 +7,19 @@ This repository contains the code used for "Hierarchical cross-entropy loss impr
 ## Repository Information
 This repository is partially derived from the [scTab study](https://github.com/theislab/scTab). We have extended and modified the original codebase to implement the hierarchical cross-entropy loss and the experiments described in the paper.
 
-![Fig. 1](images/figure1.png)
-
 ## Training Data
 The model training uses the CELLxGENE census version "2023-05-15" preprocessed by [scTab](https://github.com/theislab/scTab), which must be downloaded manually from [this link](https://pklab.med.harvard.edu/felix/data/merlin_cxg_2023_05_15_sf-log1p.tar.gz).
 
 ## Evaluation Data
 For model evaluation, we use the CELLxGENE census version "2023-12-15" as referenced in the paper. This census version is automatically fetched by the code directly from the [CELLxGENE](https://cellxgene.cziscience.com/) portal when needed.
 
+![Fig. 1](images/figure1.png)
+
 ## Hierarchical Cross-Entropy Loss
 
-![Fig. 2](images/figure2.png)
-
 The hierarchical cross-entropy loss leverages inherent hierarchical structures within classification problems to improve model performance. Unlike standard cross-entropy which treats each class independently, this loss function accounts for inclusion relationships between classes. Here we provide a standalone implementation that can be applied to any hierarchical classification task, regardless of the domain or model architecture.
+
+![Fig. 2](images/figure2.png)
 
 ### Reachability Matrix
 The function relies on a **reachability matrix** that encodes the hierarchical structure as a directed acyclic graph (DAG). In this matrix:
