@@ -77,7 +77,47 @@ def hierarchical_cross_entropy_loss(logits, targets, reachability_matrix, weight
 ```
 
 ## Contact
-For questions or issues, please contact davide.dascenzo.work@gmail.com or davide.dascenzo@unimi.it (likely not active from 2026).
+For questions or issues, please contact [Davide D'Ascenzo](mailto:davide.dascenzo.work@gmail.com), [Sebastiano Cultrera di Montesano](mailto:scultrer@broadinstitute.org), or [Lorin Crawford](mailto:lcrawford@microsoft.com).
 
-## Citation
-If you use this code or method in your research, please consider citing the following [paper](https://doi.org/10.1101/2025.04.22.1234567).
+## Citation (BibTeX)
+If you use this code or method in your research, please consider citing the following:
+
+```
+@article {token,
+	author = {Cultrera di Montesano, Sebastiano and D'Ascenzo, Davide and Raghavan, Srivatsan and Amini, Ava P. and Winter, Peter S. and Crawford, Lorin},
+	title = {Hierarchical cross-entropy loss improves atlas-scale single-cell annotation models},
+	elocation-id = {},
+	year = {2025},
+	doi = {},
+	publisher = {Cold Spring Harbor Laboratory},
+	URL = {},
+	eprint = {},
+	journal = {bioRxiv}
+}
+```
+## License
+
+This project is available under the MIT License.
+
+## Contributing
+
+This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
+the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+
+When you submit a pull request, a CLA bot will automatically determine whether you need to provide
+a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
+provided by the bot. You will only need to do this once across all repos using our CLA.
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
+contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
+## Trademarks
+
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
+trademarks or logos is subject to and must follow 
+[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
+Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
+Any use of third-party trademarks or logos are subject to those third-party's policies.
+
