@@ -1,0 +1,3 @@
+/data/sebacultrera/merlin_cxg_2023_05_15_sf-log1p/tb_logs/cxg_2023_05_15_linear_hierarchical_loss/default/version_0/checkpoints/val_f1_macro_epoch=1_val_f1_macro=0.802.ckpt
+/data/sebacultrera/merlin_cxg_2023_05_15_sf-log1p/tb_logs/cxg_2023_05_15_mlp_hierarchical_loss/default/version_0/checkpoints/val_f1_macro_epoch=1_val_f1_macro=0.798.ckpt
+/data/sebacultrera/merlin_cxg_2023_05_15_sf-log1p/tb_logs/cxg_2023_05_15_tabnet_hierarchical_loss/default/version_0/checkpoints/val_f1_macro_epoch=0_val_f1_macro=0.789.ckpt
