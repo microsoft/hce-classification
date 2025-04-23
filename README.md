@@ -82,9 +82,11 @@ def hierarchical_cross_entropy_loss(logits, targets, reachability_matrix, weight
 ```
 
 ## Contact
-For questions or issues, please contact [Davide D'Ascenzo](mailto:davide.dascenzo.work@gmail.com), [Sebastiano Cultrera di Montesano](mailto:scultrer@broadinstitute.org), or [Lorin Crawford](mailto:lcrawford@microsoft.com).
+If you have any questions, or find any issues with the code, please open an issue in this repository. We also welcome any contributions to the code - be sure to checkout the Contributing section below.
 
-## Citation (BibTeX)
+If you have questions or concerns with this project and do not want to create an issue, please contact [Davide D'Ascenzo](mailto:davide.dascenzo.work@gmail.com), [Sebastiano Cultrera di Montesano](mailto:scultrer@broadinstitute.org), or [Lorin Crawford](mailto:lcrawford@microsoft.com).
+
+## Relevant Citation (BibTeX)
 If you use this code or method in your research, please consider citing the following:
 
 ```
