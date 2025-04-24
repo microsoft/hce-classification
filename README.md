@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-This repository contains the code used for "Hierarchical cross-entropy loss improves atlas-scale single-cell annotation models". The paper is available on [bioRxiv](https://doi.org/10.1101/2025.04.22.1234567).
+This repository contains the code used for "Hierarchical cross-entropy loss improves atlas-scale single-cell annotation models". The paper is available on [bioRxiv](https://doi.org/10.1101/2025.04.23.650210).
 
 ## Repository Information
 This repository is partially derived from the [scTab study](https://github.com/theislab/scTab). We have extended and modified the original codebase to implement the hierarchical cross-entropy loss and the experiments described in the paper.
@@ -90,15 +90,15 @@ If you have questions or concerns with this project and do not want to create an
 If you use this code or method in your research, please consider citing the following:
 
 ```
-@article {token,
+@article {hce_classification,
 	author = {Cultrera di Montesano, Sebastiano and D'Ascenzo, Davide and Raghavan, Srivatsan and Amini, Ava P. and Winter, Peter S. and Crawford, Lorin},
 	title = {Hierarchical cross-entropy loss improves atlas-scale single-cell annotation models},
-	elocation-id = {},
+	elocation-id = {2025.04.23.650210},
 	year = {2025},
-	doi = {},
+	doi = {10.1101/2025.04.23.650210},
 	publisher = {Cold Spring Harbor Laboratory},
-	URL = {},
-	eprint = {},
+	URL = {https://www.biorxiv.org/content/early/2025/04/23/2025.04.23.650210},
+	eprint = {https://www.biorxiv.org/content/early/2025/04/23/2025.04.23.650210.full.pdf},
 	journal = {bioRxiv}
 }
 ```
