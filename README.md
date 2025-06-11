@@ -1,6 +1,7 @@
 # Hierarchical cross-entropy loss improves atlas-scale single-cell annotation models
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![bioRxiv](https://img.shields.io/badge/bioRxiv-Preprint-orange)](https://www.biorxiv.org/content/10.1101/2025.04.23.650210)
 
 This repository contains the code used for "Hierarchical cross-entropy loss improves atlas-scale single-cell annotation models". The paper is available on [bioRxiv](https://doi.org/10.1101/2025.04.23.650210).
 
