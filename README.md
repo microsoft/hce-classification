@@ -6,8 +6,7 @@
 This repository contains the code used for "Hierarchical cross-entropy loss improves atlas-scale single-cell annotation models". The paper is available on [bioRxiv](https://doi.org/10.1101/2025.04.23.650210).
 
 ## Repository Information
-This repository is partially derived from the [scTab study](https://github.com/theislab/scTab). We have extended and modified the original codebase to implement the hierarchical cross-entropy loss and the experiments described in the paper.
-
+This repository is partially derived from the [scTab study](https://github.com/theislab/scTab). We have extended and modified the original codebase to implement the hierarchical cross-entropy loss and the experiments described in the paper. For a detailed walkthrough on reproducing the experiments, please refer to this [guide](https://github.com/microsoft/hce-classification/blob/main/EXPERIMENTS_GUIDE.md). **Model checkpoints and results can be found [here](https://zenodo.org/records/XXXXXX)**.
 ## Training Data
 The model training uses the CELLxGENE census version "2023-05-15" preprocessed by [scTab](https://github.com/theislab/scTab), which must be downloaded manually from [this link](https://pklab.med.harvard.edu/felix/data/merlin_cxg_2023_05_15_sf-log1p.tar.gz).
 
