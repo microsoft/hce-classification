@@ -123,7 +123,7 @@ $DATA_PATH/tb_logs/
 
 ## Model Evaluation
 
-> The trained model checkpoints and evaluation results are available on Zenodo: [https://zenodo.org/records/XXXXXX](https://zenodo.org/records/XXXXXX)
+> The trained model checkpoints and evaluation results are available on Zenodo: [https://zenodo.org/records/17211022](https://zenodo.org/records/17211022)
 
 ### 1. Checkpoint Preparation
 
